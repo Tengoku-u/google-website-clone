@@ -1,0 +1,233 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+.container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+}
+nav{
+    position: absolute;
+    display: flex;
+    width: 100%;
+    top: 0%;
+    padding-right: 10px;
+    justify-content: flex-end;
+    height: 10%;
+}
+.nav-links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-links li{
+    list-style-type: none;
+    margin: 0 10px;
+}
+.nav-links li a{
+    text-decoration: none;
+    color: rgba(0,0,0,0.87);
+    font-size: 13px;
+}
+.nav-links li a:hover{
+    text-decoration: underline;
+}
+.nav-links img{
+    color: #5f6368;
+    opacity: 0.5; 
+    padding-left: 10px;  
+}
+.nav-links li button{
+    font-size: 14px;
+    cursor: pointer;
+    border: none;
+    background-color: #4584ef;
+    padding: 5px 16px;
+    border-radius: 50px;
+    font-weight: 550; 
+}
+.ggle{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-right: 90px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 600px;
+    height: 450px;
+    padding-bottom: 5px;
+    
+    
+}
+.ggle img{
+    margin-bottom: 6%;
+    margin-left: 5%;
+    width: auto;
+}
+.searchBox{
+    position: relative;
+    width: 100%;
+    margin-bottom: 6%;
+    margin-left: 12%;
+    
+}
+.search{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 1;
+    padding: 1em;
+    padding-left: 50px;
+    padding-right: 40px;
+    border-radius: 30px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    outline: none;
+}
+.search:hover{
+    box-shadow: 0 1px 1px rgb(0 0 0 / 28%);
+    border: 1px solid #dadce0;
+}
+.icons{
+    display: flex;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    margin: 0;
+    padding: 12px 19px;
+    justify-content: space-between;
+    align-items: center;
+    pointer-events: none;
+}
+.button{
+    padding-left: 80px;
+    margin: auto;
+    height: 70%;
+}
+.button div{
+    border: none;
+    padding: 8px 10px;
+    display: inline;
+    margin-left: 10px;
+    font-size: 14px;
+    color: #3c4043;
+    background-color: #f8f9fa;
+    font-family: Arial, sans-serif;
+    cursor: pointer;
+    outline: none;
+    
+}
+.button div:hover{
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+
+}
+.languages{
+    display: flex;
+    margin-top:10px;
+    font-size: 14px;
+    height: 180px;
+    padding-left: 100px;
+    text-align: center;
+    font-size: small;
+}
+.languages li{
+    padding-left: 10px;
+    list-style-type: none;
+
+}
+.languages li a{
+    text-decoration: none;
+    color: #1a0dab;
+}
+.languages li a:hover{
+    text-decoration: underline;
+}
+@media screen and (max-width:500px) {
+    .languages {
+        padding-left: 40px;
+        flex-direction: row;
+    }
+    .languages li {
+        flex-direction: row;
+        padding-left: 9px;
+    }
+    .languages li a {
+        padding: 0;
+    }
+    .footer {
+     padding: 4vh 0.5vw;
+     
+    }
+    .footer-top {
+        padding-inline: 5em 2em;
+    }
+    .footer-bottom {
+        flex-direction: row;
+    
+      
+
+    }
+}
+
+
+
+.footer{
+    background-color: #f2f2f2;
+    color: rgba(0,0,0,.54);
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    width: 100%;
+
+}
+.footer-top{
+    border-bottom: 1px solid #dadce0;
+    padding: 0.9em;
+}
+.footer-bottom{
+    padding: 0.9em;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-left a{
+    text-decoration: none;
+    color: rgba(0,0,0,.54);
+    font-size: 15px;
+    margin-right: 1em;
+}
+.footer-left a:hover{
+    text-decoration: underline;
+}
+.carbon-png{
+    text-decoration: none;
+    color: rgba(0,0,0,.54);
+    font-size: 15px;
+    padding-right: 10%;
+}
+.carbon-png:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.footer-right a{
+    text-decoration: none;
+    color: rgba(0,0,0,.54);
+    font-size: 15px;
+    margin-right: 1em;
+
+}
+.footer-right a:hover{
+    text-decoration: underline;
+}
