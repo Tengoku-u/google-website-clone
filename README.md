@@ -1,2 +1,2 @@
-# google-clone
- Google clone
+https://tengoku-u.github.io/google-website-clone/
+Google clone
